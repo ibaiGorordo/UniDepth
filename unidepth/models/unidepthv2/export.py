@@ -212,7 +212,7 @@ if __name__ == "__main__":
 
     export(
         model=model,
-        path=os.path.join(os.environ["TMPDIR"], output_path),
+        path=os.path.join(output_path),
         shape=shape,
         with_camera=with_camera,
     )
